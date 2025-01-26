@@ -12,7 +12,7 @@ const QuestionFetcher = ({ questions, loading }) => {
   return (
     <>
       {loading ? (
-        <p className="text-white text-center">Loading...</p>
+        <p className="text-white text-center mt-6">Hang on, we are preparing Best Questions that matches you Query!</p>
         
       ) : (
         <div className="mt-6 w-full max-w-4xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
